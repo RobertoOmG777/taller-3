@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de usuario</title>
+</head>
+<body>
+    <b><h2>Rellena tu cv</h2></b> 
+    
+    <form action="Menú.html">
+        <label for="Nombre">Nombre</label> <br>
+        <input type="text" id="Nombre" nombre="Nombre">
+        <br></br>
+        <label for="Apellidos">Apellidos</label> <br>
+        <input type="text" id="Apellidos" name="Apellidos">
+        <br></br>
+        <label for="Contraseña">Contraseña</label> <br>
+        <input type="password" id="Contraseña" name="Contraseña">
+        <br></br>
+        <label for="Confcontraseña">Confirmar contraseña</label> <br>
+        <input type="password" id="Confcontraseña" name="Confcontraseña">
+        <br></br>
+
+        <label for="Identificación">Identificación</label> <br>
+        <select id="select" name="select">
+            <option>TI</option>
+            <option>CC</option>
+            <option>RC</option>
+        </select>
+        <input type="text" id="Identificación" name="Identificación">
+        <br></br>
+
+        <input type="radio" id="Hombre" name="radio"> Hombre <br>
+        <input type="radio" id="Mujer" name="radio"> Mujer 
+        <br></br>
+
+        <label for="file">Incluir mi foto</label> <br>
+        <input type="file" id="file" name="file">
+        <br></br>
+
+        <label for="checkbox"></label>
+        <input type="checkbox" id="Checkbox" name="Checkbox"> Estudiante....
+        <br></br>
+
+        <fieldset>
+            <legend>Datos personales</legend>           
+            <label for="Departamento"></label>
+            <select name="Departamento" id="Departamento">
+                <option>-seleciona-</option>
+                <option>Amazonas</option>
+                <option>Antioquía</option>
+                <option>Arauca</option>
+                <option>Atlántico</option>
+                <option>Bolívar</option>
+                <option>Boyacá</option>
+                <option>Caldas</option>  
+                <option>Caquetá</option>
+                <option>Casanare</option>
+                <option>Cauca</option>
+                <option>Cesar</option>
+                <option>Chocó</option>
+                <option>Córdoba</option>
+                <option>Cundinamarca</option>
+                <option>Guainía</option>   
+                <option>Guaviare</option>
+                <option>Huila</option>
+                <option>La Guajira</option>
+                <option>Magdalena</option>
+                <option>Meta</option>
+                <option>Nariño</option>
+                <option>Norte de Santander</option>
+                <option>Putumayo</option>  
+                <option>Quindío</option>
+                <option>Risaralda</option>
+                <option>San Andrés y Providencia</option>
+                <option>Santander</option>
+                <option>Sucre</option>
+                <option>Tolima</option>
+                <option>Valle del Cauca</option>
+                <option>Vaupés</option> 
+                <option>Vichada</option>                                                                                                       
+            </select> <br></br>
+
+            <label for="FdeN">Fecha de Nacimiento</label> <br>
+            <input type="text" id="FdeN" name="FdeN"> de 
+            <select name="FdeN" id="FdeN">
+                <option>Enero</option>
+                <option>Febrero</option>
+                <option>Marzo</option>
+                <option>Abril</option>
+                <option>Mayo</option>
+                <option>Junio</option>
+                <option>Julio</option>
+                <option>Agosto</option>  
+                <option>Septiembre</option>
+                <option>Octubre</option>
+                <option>Noviembre</option>
+                <option>Diciembre</option>
+            </select>
+            <label for="Año">de</label>
+            <input type="text" id="Año" name="Año">
+            <br></br>
+            
+            <label for="TdeI">Temas de interés</label> <br>
+            <select name="TdeI" size="5" id="TdeI" multiple>
+                <option value="1">Administración de bases de datos</option>
+                <option value="2">Análisis y programación</option>
+                <option value="3">Arquitectura</option>
+                <option value="4">Calidad</option>
+                <option value="5">ERP, CRM, Business Intelligence</option>
+                <option value="6">Juegos</option>
+                <option value="7">Lenguajes</option>
+                <option value="8">Inteligencia Artificial</option>
+            </select>
+        </fieldset>
+
+        <label for="GC"></label>
+        <input type="submit" value="Guardar cambios" id="GC" name="GC">
+        <label for="Borrar"></label>
+        <input type="reset" value="Borrar todos los datos introducidos" id="Borrar" name="Borrar">
+    </form>
+</body>
+</html>
